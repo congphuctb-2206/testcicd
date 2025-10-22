@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('SSH to EC2 Web') {
             steps {
